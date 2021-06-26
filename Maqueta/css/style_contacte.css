@@ -1,0 +1,34 @@
+#contacte{
+    
+    max-width: 100%;
+}
+
+#form{
+    margin-top: 50px;
+    padding-left: 145px;
+}
+
+#treballa{
+    font-size: 18px;
+    text-align: left;
+    color: black;
+}
+#direccio{
+    margin-top: 50px;
+}
+#informacio{
+    padding: 10px 10px 10px 28px;
+    border: 2px solid rgb(78, 116, 78);
+    
+}
+
+.mapa{
+    border: 2px solid rgb(78, 116, 78);
+}
+
+.form-group{
+    padding-left: 20px;
+}
+#formulari{
+    text-align: center;
+}

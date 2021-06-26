@@ -1,0 +1,85 @@
+
+/* Carta */
+    /* Center website */
+    .main {
+        max-width: 1000px;
+        margin: auto;
+    }
+    /* Imatge */
+    .imatge{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        opacity: 0.5;
+        height: 200px!important;
+        z-index: -1!important;
+        position: relative;
+    }
+
+    
+
+    /* Nom dels plats */
+    h5 {
+        background: inherit;
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    /* Treure els floats després de cada row */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both ;
+    }
+
+    /* contingut després de cada foto */
+    .content {
+        background-color: white;
+       
+        /*position: relative;*/
+    }
+
+    /* The "show" class is added to the filtered elements */
+
+    /* Butons */
+    .btn {
+        border: none;
+        outline: none;
+        padding: 200px 16px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(173, 23, 23);
+    }
+
+    .btn.active {
+        background-color: #666;
+        color: white;
+    }
+
+    h1 {
+        font-size: 50px!important;
+        word-break: break-all;
+        text-align: center;
+        position:relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:black;
+        opacity: 5;
+        bottom: 110px;
+    }
+
+    #llegenda2{
+        border: 1px solid black;
+        padding-top: 10px;
+    }
+
+    h4{
+        font-size: 17px !important;
+    }
+    .beguda{
+        font-size: 14.5px;
+    }

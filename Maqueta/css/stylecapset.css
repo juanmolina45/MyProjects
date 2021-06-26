@@ -1,0 +1,21 @@
+#menudiari{
+    width: 55%;
+    padding: 30px 50px 0 50px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/foto-gratis/texturas-madera-blancas_74190-6906.jpg?size=626&ext=jpg);
+    background-size:750px 1400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 20px 20px 20px rgb(85, 84, 84);
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+#menuimg{
+    position: relative;
+}
+h4{
+    text-decoration: underline;
+}

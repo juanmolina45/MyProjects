@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: lato;
+}
+
+#foto {
+    width: 100%;
+    
+
+}
+/*sliderstyle*/
+.mySlides {
+    display:none;
+    margin-top: 35px;
+    margin-left: 63%;
+    margin-bottom: 10px; 
+}
+#p{
+    font-size: 15px;
+}
+
+/*Navegador*/
+#navArea {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    width: 100%;
+    top: 0px;
+    background: white;
+    transition: background 2s;
+}
+
+#navArea .logo img {
+    height: 70px;
+    transition: height 0.5s;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: whitesmoke;
+    background-color: #fff;
+}
+
+#navArea ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+#navArea ul li {
+    float: left;
+    position: relative;
+    margin-top: 20px;
+}
+
+#navArea ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    transition: color 0.1s;
+    display: block;
+    text-align: center;
+}
+
+#navArea ul ul {
+    position: absolute;
+    padding: 0.5em;
+    display: none;
+    left: 0;
+    width: 200px;
+}
+
+#navArea ul li:hover ul {
+    display: block;
+}
+
+
+/*Estil item global del dropdown*/
+#navArea  li:hover  {
+    background: rgb(197, 197, 197);
+    
+}
+
+/*HOVER Scroll estil items del navegador*/
+#navArea ul li a:hover  {
+    background: rgb(197, 197, 197);
+    border: 1px solid black;
+}
+
+/*Estil dropdown*/
+#navArea ul li ul {
+    background: white;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+
+/*HOVER estil dropdown*/
+#navArea ul ul li:hover a {
+    color: rgb(19, 196, 19);
+    background: white;
+    border: none;
+}
+
+/*Scroll estil navegador*/
+#navArea.is-sticky {
+    background: rgb(44, 43, 43);
+    position: fixed !important;
+    z-index: 1;
+}
+
+/*Estil del dropdown*/
+.dropdown {
+    z-index: 2;
+}
+
+/*Scroll estil item global del dropdown*/
+#navArea.is-sticky .dropdown{
+    background: rgb(44, 43, 43);
+}
+
+/*Scroll estil item del navegador que correspon al dropdown*/
+#navArea.is-sticky li:hover {
+    background: rgb(103, 143, 93);
+}
+
+/*Scroll estil items del dropdown*/
+#navArea.is-sticky .dropdown a{
+    background: rgb(44, 43, 43)!important;
+}
+
+/*HOVER Scroll estil navegador*/
+#navArea.is-sticky ul ul li:hover a {
+    color: rgb(126, 175, 114);
+}
+
+/*Scroll estil items del navegador*/
+#navArea.is-sticky a {
+    color: #fff;
+    z-index: 1;
+}
+
+/*HOVER Scroll estil items del navegador*/
+#navArea.is-sticky ul li a:hover  {
+    background: rgb(103, 143, 93);
+}
+
+/*Scroll estil logo*/
+#navArea.is-sticky .logo img {
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Footer*/
+footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+#copy {
+    text-align: center;
+}
+.description{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: double;
+}
+
+#XXSS{
+    text-align: center;
+}
+#XXSS img{
+    width: 40px;
+}
+
+#col {
+    text-align: justify;
+}
+
+#copy {
+    text-align: center;
+}
+
+#serveis {
+    text-align: center;
+    
+}
+
+#serveis a{
+    color: rgb(154, 218, 138);
+}
+
+#serveis a:hover{
+    color: rgb(128, 182, 114);
+    text-decoration:  none ;
+}
+
+#linea{
+    background-color: rgb(44, 43, 43);
+    padding-top: 3px;
+}

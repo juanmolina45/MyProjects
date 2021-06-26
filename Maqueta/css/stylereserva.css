@@ -1,0 +1,23 @@
+#reserva2{
+    padding-left: 145px;
+    padding-top: 50px;
+    max-width: 100%;
+
+}
+
+#formulari{
+    text-align: center;
+}
+#imgreserva{
+    padding-left: 0px;
+    padding-top: 80px;
+    
+}
+#imgreserva img{
+    padding-right: 40px;
+}
+
+
+.form-group{
+    padding-left: 17px;
+}

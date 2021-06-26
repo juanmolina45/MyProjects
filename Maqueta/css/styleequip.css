@@ -1,0 +1,73 @@
+
+
+
+
+#portfoli {
+    background-color: #ffffff;
+    padding: 20px;
+   
+}
+
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 33.33%;
+display: none;
+text-align: justify;
+    
+    /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+#hequip{
+    padding-left: 30px;
+
+}
+h3{
+    text-align: center;
+}

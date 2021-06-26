@@ -1,0 +1,123 @@
+
+/* Carta */
+    /* Center website */
+    .main {
+        max-width: 1000px;
+        margin: auto;
+    }
+    .imagenes1{
+        padding: 5% 10% 10% 0;
+        max-width: 100%;
+    }
+    .imagenes2{
+        padding: 5% 10% 10% 0;
+        max-width: 100%;
+    }
+    .imagenes3{
+        padding: 5% 10% 10% 0;
+        max-width: 100%;
+    }
+    .imagenes4{
+        padding: 5% 10% 10% 0;
+        max-width: 100%;
+    }
+    .imagenes5{
+        padding: 5% 10% 10% 0;
+        max-width: 100%;
+    }
+    .imagenes6{
+        padding: 5% 10% 10% 0;
+        max-width: 100%;
+    }
+    /* Títols principals */
+    h1 {
+        font-size: 7px;
+        word-break: break-all;
+        text-align: center;
+        position:relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:black;
+        opacity: 5;
+        bottom: 110px;
+    }
+
+    /* Imatge */
+    .imatge{
+        display: block;
+        width: 100%;
+        opacity: 0.9;
+        height: 200px;
+        z-index: -1;
+        position: relative; 
+        border-radius: 50%;
+    }
+
+    
+    
+
+    
+    /* controlador h3 */
+    .ortografia {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(10, 10, 10);
+        font-size: 20px;
+        text-align: center;
+        padding-top: 15%;
+
+        
+    }
+    
+
+    p{
+        margin-left: 10px;
+    }
+    .border{
+    border-style: groove;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 25%;
+    
+}
+    /* Paddings entre columnes */
+    
+
+    /* Treure els floats després de cada row */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* contingut després de cada foto */
+    .content {
+        background-color: white;
+        margin-left: 25%;
+        /*position: relative;*/
+    }
+
+    /* The "show" class is added to the filtered elements */
+
+    /* Butons */
+    .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #ddd;
+    }
+
+    .btn.active {
+        background-color: #666;
+        color: white;
+    }
+

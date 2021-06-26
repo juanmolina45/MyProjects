@@ -1,0 +1,84 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+ @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+ @import url(animate.min.css);
+ @import url(normalize.css);
+ @import url(meanmenu.css);
+ @import url(owl.carousel.min.css);
+ @import url(slick.css);
+ @import url(jquery-ui.css);
+ @import url(nice-select.css);
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+* {
+    box-sizing: border-box !important;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: lato;
+}
+
+#foto {
+    width: 1400px;
+
+}
+ 
+
+ p {
+     margin: 0px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+     
+}
+ a {
+     color: #fff5f5;
+     text-decoration: none;
+     outline: none !important;
+}
+ 
+ img {
+     max-width: 100%;
+     height: auto;
+}
+
+.border{
+    padding-left: 125px;
+    padding-top: 35px ;
+    
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+.btn.active {
+        background-color: #666;
+        color: white;
+    }
+
+.content{
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.imagenes{
+   margin-left: -60px;
+   margin-top: 15px;
+}
+
+ 

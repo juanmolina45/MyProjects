@@ -1,0 +1,90 @@
+#main{
+    max-width: 1000px;
+    padding: 2em;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 170px;
+    margin-top: 50px;
+
+}
+@media only screen and (min-width: 359px) and (max-width: 739px){
+ .clear{
+    clear: both;
+    height: 252px;
+}
+}
+
+
+#list ul{
+    list-style: none;
+    margin-top: 90px;
+}
+
+#caixes{
+    height: 250px;
+    width: 100%;   
+}
+
+#filosofia{
+    background-image: url("filosofia2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    opacity: 0.7;
+}
+
+#filosofia h3{
+    margin: 110px 0 110px 0;
+    color: white;
+    font-weight: bolder;
+}
+#list{
+    color: black;
+    height: 250px;
+    font-size: 16px;
+    background-color: rgb(214, 214, 214);
+}
+#equip_descr{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    height: 250px;
+    font-size: 16px;
+}
+#equip_descr p{
+    margin: 90px 0 90px 0;
+}
+#equip{
+    background-image: url("equip.jpg");
+    background-repeat: no-repeat;
+    height: 250px;
+    opacity: 0.7;
+}
+#equip h3{
+    margin: 110px 0 110px 0;
+    font-weight: bolder;
+}
+#equip h3 a{
+    color: white;
+}
+#entorn_descr{
+    color: black;
+    height: 250px;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    border: 1px solid black;
+}
+#entorn_descr p{
+    margin: 100px 0 100px 0;
+}
+#entorn{
+    background-image: url("entorn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    height: 250px;
+}
+#entorn h3{
+    margin: 110px 0 110px 0;
+    color: white;
+    font-weight: bolder;
+}
